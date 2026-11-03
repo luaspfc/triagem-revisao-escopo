@@ -1,0 +1,27 @@
+{
+  "titulo": "Triagem-piloto por pares",
+  "subtitulo": "Revisão de escopo • Avaliações motoras longitudinais por sensores inerciais corporais",
+  "revisoras": ["Luana", "Beatriz"],
+  "versao_protocolo": "Documento metodológico em minuta v1.0 (01/11/2026)",
+  "limiares": {"minimo_percent": 75, "minimo_concordancias": 19, "meta_percent": 85, "meta_concordancias": 22},
+  "regra_central": "Estudo original em humanos com doença neurodegenerativa progressiva e pelo menos um desfecho motor quantitativo derivado de sensor inercial <u>corporal</u> avaliado em <u>duas ou mais ocasiões temporalmente distintas</u>.",
+  "criterios": [
+    ["População", "Parkinson, PEH/SPG4, ataxias degenerativas/hereditárias, Huntington, ELA, PSP, AMS, Alzheimer e relacionadas. Amostra mista: desfechos separados para subgrupo elegível."],
+    ["Sensor corporal", "IMU, acelerômetro, giroscópio, actígrafo ou vestível com essas modalidades. Smartphone deve estar portado/fixado no corpo. Sensores de piso/ambiente isolados não bastam."],
+    ["Desfecho motor inercial", "Marcha, giro, oscilação postural, passos, atividade, tremor, coreia, bradicinesia ou movimento de membros. A variável deve derivar do sensor e ser repetida."],
+    ["Tempo", "Visitas/ocasiões distintas ou pré/pós intervenção. Repetir caminhadas na mesma sessão, velocidades, ON/OFF ou uma única janela de 7 dias não comprova seguimento."],
+    ["Tipos de estudo", "Coortes, séries longitudinais, ensaios controlados, pré/pós, cruzados e N-de-1 com resultados originais. Não incluir revisões/editoriais/protocolos sem dados."],
+    ["Princípio conservador", "Na dúvida sobre informações ausentes no resumo, <b>Incluir para texto completo</b> ou <b>Talvez</b>; excluir apenas por incompatibilidade clara. “Talvez” deverá ser resolvido antes de finalizar."]
+  ],
+  "motivos": [
+    ["E01", "População inadequada / sem subgrupo neurodegenerativo analisável"],
+    ["E02", "Ausência de sensor inercial corporal elegível"],
+    ["E03", "Ausência de ocasiões separadas de avaliação longitudinal"],
+    ["E04", "Ausência de desfecho motor repetido derivado do sensor inercial"],
+    ["E05", "Publicação não original / protocolo sem resultados utilizáveis"],
+    ["E06", "Estudo exclusivamente não humano"],
+    ["E07", "Informação insuficiente após tentativas de obtenção do texto completo"],
+    ["E08", "Dados originais insuficientes / resumo de congresso sem resultados utilizáveis"]
+  ],
+  "classes": "Classes analíticas: A = progressão/trajetória longitudinal; B = resposta à intervenção. Classificação provisória opcional nesta etapa."
+}
